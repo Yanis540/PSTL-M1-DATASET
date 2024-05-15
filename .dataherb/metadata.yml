@@ -1,0 +1,16 @@
+name: 'Json dataset for json generators and repairing the json instances'
+description: 'Dataset for our experiments on a new method for repairing json instances by using an edit distance '
+contributors:
+- name: 'Lyes Attouche, Mohamed amine bazzizi, Yanis Tabellout, Salim Tabellout, Hichem bouzouriine '
+  github: 'Yanis540'
+- name: 'Correct json instances'
+  description: 'list of planets in our solar system with their basic information'
+  format: 'csv'
+  path: 'dataset/01102022_150755_3600000ms_witness.csv'
+  size: '2.7K'
+  updated_at: '2022-07-15'
+  fields:
+  - name: 'objectId'
+    description: 'the object ID'
+  - name: 'witness'
+    description: 'witness value'
